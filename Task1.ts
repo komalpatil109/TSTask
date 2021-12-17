@@ -19,11 +19,11 @@ class Customer{
 
 let custObj1:Customer=new Customer();
 let custObj2:Customer=new Customer(121);
-let custObj3:Customer=new Customer(1213,"Rahul");
-let custObj4:Customer=new Customer(1213,"Rahul", "Pune");
+let custObj3:Customer=new Customer(1213,"Komal");
+let custObj4:Customer=new Customer(1213,"Koaml", "Pune");
 
-   custObj1.custNo=12;
-   custObj1.custName="Rahul";
+   custObj1.custNo=10;
+   custObj1.custName="Komal";
    custObj1.showCustomerDetails();
    console.log("---------------");
    custObj2.showCustomerDetails();
